@@ -1,0 +1,92 @@
+Prompt Replit
+Créer une page web professionnelle pour un cabinet dentaire à Marseille.
+Objectifs :
+•	Optimisation SEO locale.
+•	Ton rassurant, expert et humain.
+•	Aucun langage commercial agressif.
+•	Style médical accessible au grand public.
+•	Respect de la déontologie des chirurgiens-dentistes.
+•	Optimisation pour Google et l'expérience utilisateur.
+Structure attendue :
+1.	Hero section avec titre H1 et sous-titre.
+2.	Présentation du problème du patient.
+3.	Explication des causes ou situations concernées.
+4.	Solutions proposées au cabinet.
+5.	Pourquoi choisir le Dr Stéphanie Hassoun.
+6.	FAQ optimisée SEO (5 à 8 questions).
+7.	Bloc prise de rendez-vous Doctolib.
+8.	Balises meta title et meta description.
+9.	Version responsive mobile.
+10.	Maillage interne vers :
+•	Implantologie
+•	Parodontologie
+•	Dentiste enfant
+•	Urgence dentaire
+Localisation :
+Dr Stéphanie Hassoun
+192 Avenue des Chartreux
+13004 Marseille
+Mettre en avant :
+•	Plus de 20 ans d'expérience.
+•	Implantologie.
+•	Parodontologie.
+•	Dentisterie pédiatrique.
+•	Cabinet à taille humaine.
+•	Patients anxieux bienvenus.
+•	Urgences dentaires selon disponibilités.
+
+Bloc 1 : Implantologie
+Implantologie dentaire à Marseille
+Vous avez perdu une ou plusieurs dents ?
+L'implant dentaire est aujourd'hui la solution de référence pour remplacer durablement une dent absente tout en préservant le confort de mastication et l'esthétique du sourire.
+Le Dr Stéphanie Hassoun met son expérience en implantologie au service de ses patients afin de proposer des traitements personnalisés et adaptés à chaque situation.
+Chaque projet implantaire fait l'objet d'un bilan complet permettant d'évaluer la qualité osseuse, la santé des gencives et les objectifs esthétiques du patient.
+Le cabinet prend en charge :
+•	Implant unitaire
+•	Remplacement de plusieurs dents
+•	Réhabilitation implanto-portée
+•	Couronnes sur implants
+•	Suivi et maintenance implantaire
+Une consultation personnalisée permet d'étudier les solutions les plus adaptées à votre situation.
+________________________________________
+Bloc 2 : Parodontologie
+Traitement des gencives et parodontologie à Marseille
+Vos gencives saignent ? Vos dents semblent se déchausser ? Vous souffrez de mauvaise haleine persistante ?
+Ces signes peuvent révéler une maladie parodontale nécessitant une prise en charge précoce.
+Le Dr Stéphanie Hassoun est particulièrement impliquée dans le traitement des maladies des gencives et la préservation du capital dentaire.
+Le cabinet assure :
+•	Traitement de la gingivite
+•	Traitement de la parodontite
+•	Détartrage et surfaçage radiculaire
+•	Maintenance parodontale
+•	Prévention du déchaussement des dents
+•	Suivi des patients à risque
+L'objectif est de préserver durablement les dents naturelles et la santé des tissus qui les soutiennent.
+________________________________________
+Bloc 3 : Dentisterie pédiatrique
+Dentiste pour enfants à Marseille
+La première expérience chez le dentiste joue un rôle essentiel dans la relation que l'enfant développera avec les soins dentaires.
+Le Dr Stéphanie Hassoun accueille les enfants dans un environnement rassurant et bienveillant afin de leur permettre d'aborder les soins en toute confiance.
+Le cabinet réalise :
+•	Consultations de prévention
+•	Dépistage des caries
+•	Soins des dents de lait
+•	Conseils d'hygiène bucco-dentaire
+•	Suivi de la croissance dentaire
+•	Accompagnement des enfants anxieux
+L'objectif est d'aider chaque enfant à conserver une bonne santé bucco-dentaire dès le plus jeune âge.
+________________________________________
+Bloc Urgences dentaires
+Urgence dentaire à Marseille
+Une rage de dent, une dent cassée, un abcès ou une douleur importante nécessitent parfois une prise en charge rapide.
+Le cabinet du Dr Stéphanie Hassoun s'efforce de recevoir les urgences dentaires dans les meilleurs délais selon les disponibilités du planning.
+Motifs fréquents de consultation en urgence :
+•	Rage de dent
+•	Douleur dentaire importante
+•	Infection ou abcès
+•	Dent cassée
+•	Couronne descellée
+•	Traumatisme dentaire
+•	Gonflement de la gencive
+En cas d'urgence, contactez directement le cabinet afin d'évaluer la situation et d'organiser une prise en charge adaptée.
+L'objectif est de soulager rapidement la douleur et de mettre en place le traitement le plus approprié.

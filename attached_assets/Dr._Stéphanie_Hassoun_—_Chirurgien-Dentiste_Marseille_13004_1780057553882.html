@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Stéphanie Hassoun — Chirurgien-Dentiste Marseille 13004</title>
+  <meta name="description" content="Cabinet dentaire Dr. Stéphanie Hassoun, chirurgien-dentiste Marseille 13004. Implants, couronnes, blanchiment, parodontie. RDV : 04 91 45 56 79"/>
+  <meta name="keywords" content="dentiste marseille 13004, chirurgien dentiste chartreux marseille, implant dentaire marseille, blanchiment marseille, parodontie marseille"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root{--bleu:#1746A2;--bleu2:#0D3B8E;--or:#1746A2;--blanc:#ffffff;--creme:#F7F9FC;--texte:#0A0A14;--gris:#5f6368;--border:#DDE3ED;}
+    *{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{font-family:'DM Sans',sans-serif;background:var(--blanc);color:var(--texte);}
+    nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,0.97);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:0 48px;height:70px;display:flex;align-items:center;justify-content:space-between;}
+    .logo{display:flex;align-items:center;gap:10px;}
+    .logo-icon{width:38px;height:38px;background:#1746A2;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;}
+    .logo-text{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#0A0A14;line-height:1.2;}
+    .logo-text span{display:block;font-size:11px;font-family:'DM Sans',sans-serif;font-weight:400;color:var(--gris);letter-spacing:1px;text-transform:uppercase;}
+    nav ul{display:flex;gap:28px;list-style:none;}
+    nav ul a{font-size:14px;color:var(--gris);text-decoration:none;font-weight:500;transition:color 0.2s;}
+    nav ul a:hover{color:var(--bleu);}
+    .nav-rdv{background:#1746A2;color:#fff!important;padding:9px 20px;border-radius:8px;font-size:14px;font-weight:600!important;text-decoration:none;}
+    .hero{min-height:100vh;padding:100px 48px 60px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;background:linear-gradient(180deg,#ffffff 0%,#F7F9FC 100%);}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(26,115,232,0.08);border:1px solid rgba(26,115,232,0.25);border-radius:100px;padding:6px 16px;font-size:12px;font-weight:600;color:#1746A2;letter-spacing:1px;text-transform:uppercase;margin-bottom:24px;}
+    .hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(42px,5vw,64px);font-weight:600;line-height:1.15;color:#0A0A14;margin-bottom:20px;}
+    .hero h1 em{font-style:italic;color:#1746A2;}
+    .hero-sub{font-size:16px;color:var(--gris);line-height:1.8;margin-bottom:36px;}
+    .hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:48px;}
+    .btn-primary{background:#1746A2;color:#fff;padding:14px 28px;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;transition:all 0.2s;display:inline-flex;align-items:center;gap:8px;}
+    .btn-primary:hover{background:#0D3B8E;transform:translateY(-2px);}
+    .btn-secondary{border:1.5px solid var(--border);color:var(--texte);padding:14px 28px;border-radius:10px;font-size:15px;font-weight:500;text-decoration:none;transition:all 0.2s;display:inline-flex;align-items:center;gap:8px;}
+    .btn-secondary:hover{border-color:var(--bleu);color:var(--bleu);}
+    .btn-doctolib{background:#0596DE;color:#fff;padding:14px 28px;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;transition:all 0.2s;display:inline-flex;align-items:center;gap:8px;}
+    .btn-doctolib:hover{background:#0478b5;transform:translateY(-2px);}
+    .hero-stats{display:flex;gap:32px;}
+    .stat-num{font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:600;color:#1746A2;line-height:1;}
+    .stat-label{font-size:12px;color:var(--gris);margin-top:4px;}
+    .hero-visual{display:flex;align-items:center;justify-content:center;}
+    .hero-card{background:#fff;border-radius:24px;padding:20px;box-shadow:0 20px 40px rgba(26,115,232,0.12);width:100%;max-width:340px;border:1px solid var(--border);}
+    .hero-card img{width:100%;height:220px;object-fit:cover;object-position:center;border-radius:14px;margin-bottom:16px;}
+    .doctor-name{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#0A0A14;margin-bottom:4px;}
+    .doctor-title{font-size:13px;color:var(--gris);margin-bottom:12px;}
+    .stars{color:#1746A2;}
+    section{padding:90px 48px;}
+    .section-tag{font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#1746A2;margin-bottom:12px;}
+    .section-title{font-family:'Cormorant Garamond',serif;font-size:clamp(34px,4vw,52px);font-weight:600;color:#0A0A14;line-height:1.2;margin-bottom:16px;}
+    .section-sub{font-size:16px;color:var(--gris);max-width:620px;line-height:1.8;}
+    .photos-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:48px;}
+    .photo-item{border-radius:16px;overflow:hidden;position:relative;}
+    .photo-item img{width:100%;height:300px;object-fit:cover;object-position:center;transition:transform 0.3s;}
+    .photo-item:hover img{transform:scale(1.03);}
+    .photo-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(10,36,99,0.7));padding:20px 16px 14px;color:#fff;font-size:14px;font-weight:500;}
+    #services{background:#F7F9FC;}
+    .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:48px;}
+    .service-card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:28px 24px;transition:all 0.2s;position:relative;overflow:hidden;}
+    .service-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1746A2,#0d47a1);transform:scaleX(0);transition:transform 0.3s;transform-origin:left;}
+    .service-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(10,36,99,0.1);}
+    .service-card:hover::after{transform:scaleX(1);}
+    .service-emoji{font-size:32px;margin-bottom:14px;display:block;}
+    .service-card h3{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:#0A0A14;margin-bottom:8px;}
+    .service-card p{font-size:13px;color:var(--gris);line-height:1.7;}
+    .equipe-content{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-top:48px;}
+    .equipe-img{border-radius:20px;overflow:hidden;}
+    .equipe-img img{width:100%;height:400px;object-fit:cover;object-position:center top;}
+    .equipe-text h3{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:600;color:#0A0A14;margin-bottom:8px;}
+    .equipe-spec{font-size:13px;color:#1746A2;font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:20px;}
+    .equipe-text p{font-size:15px;color:var(--gris);line-height:1.8;margin-bottom:16px;}
+    .equipe-badge{display:inline-flex;align-items:center;gap:8px;background:#F7F9FC;border:1px solid #c7d9ff;border-radius:8px;padding:8px 14px;font-size:13px;color:var(--texte);margin-top:8px;margin-right:8px;}
+    #horaires{background:linear-gradient(135deg,#0A0A14 0%,#0D1321 100%);}
+    #horaires .section-tag{color:#60a5fa;}
+    #horaires .section-title{color:#ffffff;}
+    #horaires .section-sub{color:rgba(255,255,255,0.7);}
+    .horaires-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:48px;}
+    .horaire-row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.1);font-size:15px;}
+    .horaire-jour{color:rgba(255,255,255,0.7);}
+    .horaire-heure{color:#fff;font-weight:500;}
+    .horaire-heure.ferme{color:rgba(255,255,255,0.3);}
+    .contact-card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:32px;}
+    .contact-item{display:flex;align-items:flex-start;gap:14px;margin-bottom:24px;}
+    .contact-item:last-child{margin-bottom:0;}
+    .contact-icon{width:40px;height:40px;background:rgba(255,255,255,0.1);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+    .contact-item h4{font-size:12px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;}
+    .contact-item p{font-size:15px;color:#fff;font-weight:500;}
+    #chatbot-widget{position:fixed;bottom:24px;right:24px;z-index:999;}
+    #chat-toggle{width:60px;height:60px;background:#1746A2;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:26px;box-shadow:0 8px 24px rgba(10,36,99,0.3);border:none;transition:transform 0.2s;position:relative;}
+    #chat-toggle:hover{transform:scale(1.08);}
+    .notif-dot{position:absolute;top:2px;right:2px;width:14px;height:14px;background:#ef4444;border-radius:50%;border:2px solid #fff;animation:pulse 2s infinite;}
+    @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
+    #chat-window{display:none;position:absolute;bottom:72px;right:0;width:360px;background:#fff;border-radius:20px;box-shadow:0 20px 60px rgba(10,36,99,0.2);overflow:hidden;border:1px solid var(--border);}
+    #chat-window.open{display:flex;flex-direction:column;}
+    .chat-header{background:linear-gradient(135deg,#0A0A14,#0D1321);padding:16px 20px;display:flex;align-items:center;gap:12px;}
+    .chat-av{width:38px;height:38px;background:rgba(255,255,255,0.15);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:18px;}
+    .chat-info h4{font-size:14px;font-weight:600;color:#fff;}
+    .chat-info p{font-size:11px;color:rgba(255,255,255,0.7);margin-top:1px;}
+    .chat-close{margin-left:auto;background:rgba(255,255,255,0.15);border:none;color:#fff;width:28px;height:28px;border-radius:8px;cursor:pointer;font-size:16px;}
+    #chat-msgs{height:280px;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;background:var(--blanc);}
+    .cmsg{display:flex;gap:8px;max-width:88%;}
+    .cmsg.bot{align-self:flex-start;}
+    .cmsg.user{align-self:flex-end;flex-direction:row-reverse;}
+    .cmsg-av{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;}
+    .cmsg.bot .cmsg-av{background:#EEF3FC;}
+    .cmsg.user .cmsg-av{background:var(--bleu);color:#fff;font-size:11px;font-weight:700;}
+    .cbubble{padding:10px 14px;border-radius:14px;font-size:13px;line-height:1.6;white-space:pre-line;}
+    .cmsg.bot .cbubble{background:#fff;border:1px solid #DDE3ED;color:var(--texte);border-bottom-left-radius:4px;}
+    .cmsg.user .cbubble{background:var(--bleu);color:#fff;border-bottom-right-radius:4px;}
+    .chat-suggs{padding:8px 12px;display:flex;flex-wrap:wrap;gap:5px;background:#fff;border-top:1px solid var(--border);}
+    .csugg{font-family:'DM Sans',sans-serif;font-size:11px;padding:5px 10px;border-radius:16px;border:1px solid #dde3ea;background:#f0f4f8;color:#1b3a5c;cursor:pointer;font-weight:500;transition:all 0.15s;}
+    .csugg:hover{background:#1746A2;color:#fff;border-color:#1746A2;}
+    .chat-input-row{display:flex;gap:8px;padding:10px 12px;background:#fff;border-top:1px solid var(--border);}
+    #chat-input{flex:1;border:1px solid #DDE3ED;border-radius:10px;padding:8px 12px;font-size:13px;font-family:'DM Sans',sans-serif;background:var(--blanc);outline:none;}
+    #chat-send{width:36px;height:36px;background:#1746A2;border:none;border-radius:10px;color:#fff;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+    #chat-send:disabled{background:#BFD0F0;cursor:not-allowed;}
+    .td{width:6px;height:6px;border-radius:50%;background:#BFD0F0;animation:tb 1s infinite;display:inline-block;margin:0 2px;}
+    .td:nth-child(2){animation-delay:0.15s}.td:nth-child(3){animation-delay:0.3s}
+    @keyframes tb{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-5px);background:var(--bleu2)}}
+    footer{background:#0D1321;padding:48px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px;}
+    footer h4{font-family:'Cormorant Garamond',serif;font-size:18px;color:#fff;margin-bottom:16px;}
+    footer p,footer a{font-size:14px;color:rgba(255,255,255,0.5);line-height:2;text-decoration:none;display:block;}
+    footer a:hover{color:#1746A2;}
+    .footer-bottom{background:#0D1321;border-top:1px solid rgba(255,255,255,0.08);padding:20px 48px;display:flex;justify-content:space-between;}
+    .footer-bottom p{font-size:13px;color:rgba(255,255,255,0.3);}
+    @media(max-width:768px){nav{padding:0 20px;}nav ul{display:none;}.hero{grid-template-columns:1fr;padding:100px 20px 60px;}.hero-visual{display:none;}section{padding:60px 20px;}.photos-grid{grid-template-columns:1fr;}.equipe-content{grid-template-columns:1fr;}.horaires-grid{grid-template-columns:1fr;}footer{grid-template-columns:1fr;padding:40px 20px;}.footer-bottom{padding:16px 20px;flex-direction:column;gap:8px;}#chat-window{width:320px;}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+    <div class="logo-icon">🦷</div>
+    <div class="logo-text">Dr. Hassoun<span>Chirurgien-Dentiste - Marseille</span></div>
+  </div>
+  <ul>
+    <li><a href="#cabinet">Le Cabinet</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#equipe">Dr. Hassoun</a></li>
+    <li><a href="#horaires">Contact</a></li>
+  </ul>
+  <a href="https://www.doctolib.fr/dentiste/marseille/stephanie-hassoun" target="_blank" class="nav-rdv">📅 Prendre RDV</a>
+</nav>
+
+<section class="hero" id="accueil">
+  <div>
+    <div class="hero-badge">Chirurgien-Dentiste - Marseille 13004</div>
+    <h1>Votre sante<br>dentaire entre<br><em>de bonnes mains</em></h1>
+    <p class="hero-sub">Le Dr. Stéphanie Hassoun vous accueille dans son cabinet moderne à Marseille pour des soins dentaires de qualite. Implants, couronnes, blanchiment et bien plus encore.</p>
+    <div class="hero-btns">
+      <a href="https://www.doctolib.fr/dentiste/marseille/stephanie-hassoun" target="_blank" class="btn-primary" style="background:#0596DE;border-radius:10px;font-weight:600;">📅 Prendre RDV sur Doctolib</a>
+      <a href="tel:0491455679" class="btn-secondary">📞 04 91 45 56 79</a>
+      <a href="#cabinet" class="btn-secondary">Découvrir le cabinet</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">10+</div><div class="stat-label">Ans d'expérience</div></div>
+      <div class="stat"><div class="stat-num">7</div><div class="stat-label">Expertises</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Etoiles patients</div></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-card">
+      <img src="https://res.cloudinary.com/dyx6cxn78/image/upload/f_auto,q_auto/IMG_2002_rwpzrk" alt="Salle de soins"/>
+      <div class="doctor-name">Dr. Stéphanie Hassoun</div>
+      <div class="doctor-title">Chirurgien-Dentiste - Marseille 13004</div>
+      <div><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span style="font-size:13px;color:var(--gris)">Disponible Lun-Ven</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="cabinet">
+  <div class="section-tag">Notre espace</div>
+  <div class="section-title">Un cabinet moderne et accueillant</div>
+  <div class="section-sub">Des équipements de dernière génération dans un environnement conçu pour votre confort et bien-etre.</div>
+  <div class="photos-grid">
+    <div class="photo-item"><img src="https://res.cloudinary.com/dyx6cxn78/image/upload/f_auto,q_auto/IMG_2002_rwpzrk" alt="Salle d'attente"/><div class="photo-caption">Salle d'attente</div></div>
+    <div class="photo-item"><img src="https://res.cloudinary.com/dyx6cxn78/image/upload/f_auto,q_auto/IMG_2004_grjpj9" alt="Accueil"/><div class="photo-caption">Accueil</div></div>
+    <div class="photo-item"><img src="https://res.cloudinary.com/dyx6cxn78/image/upload/f_auto,q_auto/IMG_2003_fnsbu3" alt="Radiologie"/><div class="photo-caption">Radiologie panoramique</div></div>
+    <div class="photo-item"><img src="https://res.cloudinary.com/dyx6cxn78/image/upload/f_auto,q_auto/IMG_2001_u9haf0" alt="Salle de soins"/><div class="photo-caption">Salle de soins</div></div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-tag">Nos soins</div>
+  <div class="section-title">Nos expertises</div>
+  <div class="section-sub">Le Dr. Stéphanie Hassoun vous accueille dans son cabinet à Marseille. Le chirurgien-dentiste soigne les pathologies de la bouche, des dents, des gencives et des maxillaires.</div>
+  <div class="services-grid">
+    <div class="service-card"><span class="service-emoji">&#x1F9B7;</span><h3>Implantologie</h3><p>Pose d implants dentaires pour remplacer vos dents manquantes. Prothese sur implant pour un resultat naturel et durable.</p></div>
+    <div class="service-card"><span class="service-emoji">&#x1F451;</span><h3>Couronne dentaire</h3><p>Restauration des dents abîmées avec des couronnes ceramiques esthétiques et solides, adaptees a chaque patient.</p></div>
+    <div class="service-card"><span class="service-emoji">&#x2728;</span><h3>Blanchiment des dents</h3><p>Retrouvez un sourire éclatant grace a nos traitements de blanchiment professionnels, surs et efficaces.</p></div>
+    <div class="service-card"><span class="service-emoji">&#x1F52C;</span><h3>Detartrage</h3><p>Nettoyage complet et détartrage pour maintenir une hygiene bucco-dentaire optimale et prévenir les maladies des gencives.</p></div>
+    <div class="service-card"><span class="service-emoji">&#x1F476;</span><h3>Dentisterie pédiatrique</h3><p>Soins spécialisés pour les enfants dans un environnement bienveillant. Suivi de la croissance dentaire des le plus jeune age.</p></div>
+    <div class="service-card"><span class="service-emoji">&#x1FA7A;</span><h3>Parodontie</h3><p>Traitement des maladies des gencives (gingivite, parodontite) pour préserver la sante de vos dents sur le long terme.</p></div>
+    <div class="service-card"><span class="service-emoji">&#x1F9B4;</span><h3>Soins dentaires complets</h3><p>Bilan complet, caries, inlay, onlay, dévitalisation, extraction. Tous vos soins dans un seul cabinet.</p></div>
+    <div class="service-card"><span class="service-emoji">&#x1F3C6;</span><h3>Prothese sur implant</h3><p>Protheses fixes sur implants pour une solution permanente, confortable et esthétique aux dents manquantes.</p></div>
+  </div>
+</section>
+
+<section id="equipe" style="background:#F7F9FC">
+  <div class="section-tag">Votre praticienne</div>
+  <div class="section-title">Dr. Stéphanie Hassoun</div>
+  <div class="equipe-content">
+    <div class="equipe-img"><img src="https://res.cloudinary.com/dyx6cxn78/image/upload/f_auto,q_auto/IMG_2004_grjpj9" alt="Cabinet Dr. Hassoun"/></div>
+    <div class="equipe-text">
+      <h3>Dr. Stéphanie Hassoun</h3>
+      <div class="equipe-spec">Chirurgien-Dentiste</div>
+      <p>Le Dr. Stéphanie Hassoun est chirurgien-dentiste à Marseille. Elle est habilitée à pratiquer l'art dentaire et soigne les pathologies acquises et congénitales de la bouche, des dents, des gencives, des maxillaires et des tissus attenants.</p>
+      <p>Forte d'une expérience acquise notamment au sein d'un cabinet dentaire à Sainte-Marguerite à Marseille, elle met son expertise au service de ses patients dans un cabinet moderne et bien équipé.</p>
+      <p>Elle réalise notamment : bilan complet, détartrage, traitement des caries, inlay, onlay, dévitalisation, extraction, pose de couronne ou de prothèse.</p>
+      <div style="margin-top:20px">
+        <span class="equipe-badge">Implantologie</span>
+        <span class="equipe-badge">Blanchiment</span>
+        <span class="equipe-badge">Pédiatrie</span>
+        <span class="equipe-badge">Parodontie</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="horaires">
+  <div class="section-tag">Nous trouver</div>
+  <div class="section-title">Horaires et Contact</div>
+  <div class="section-sub">Venez nous rendre visite avenue des Chartreux à Marseille, du lundi au vendredi.</div>
+  <div class="horaires-grid">
+    <div>
+      <div class="horaire-row"><span class="horaire-jour">Lundi</span><span class="horaire-heure">09h00-13h00 / 14h00-19h00</span></div>
+      <div class="horaire-row"><span class="horaire-jour">Mardi</span><span class="horaire-heure">09h00-13h00 / 14h00-19h00</span></div>
+      <div class="horaire-row"><span class="horaire-jour">Mercredi</span><span class="horaire-heure">09h00-13h00 / 14h00-19h00</span></div>
+      <div class="horaire-row"><span class="horaire-jour">Jeudi</span><span class="horaire-heure">09h00-13h00 / 14h00-19h00</span></div>
+      <div class="horaire-row"><span class="horaire-jour">Vendredi</span><span class="horaire-heure">09h00-13h00 / 14h00-19h00</span></div>
+      <div class="horaire-row"><span class="horaire-jour">Samedi</span><span class="horaire-heure ferme">Fermé</span></div>
+      <div class="horaire-row"><span class="horaire-jour">Dimanche</span><span class="horaire-heure ferme">Fermé</span></div>
+    </div>
+    <div class="contact-card">
+      <div class="contact-item"><div class="contact-icon">&#x1F4CD;</div><div><h4>Adresse</h4><p>192A Avenue des Chartreux, 13004 Marseille</p></div></div>
+      <div class="contact-item"><div class="contact-icon">&#x1F4DE;</div><div><h4>Téléphone</h4><p>04 91 45 56 79</p></div></div>
+      <div class="contact-item"><div class="contact-icon">&#x1F550;</div><div><h4>Horaires</h4><p>Lun-Ven : 9h-13h / 14h-19h</p></div></div>
+      <div class="contact-item"><div class="contact-icon">📅</div><div><h4>Prendre RDV en ligne</h4><p><a href="https://www.doctolib.fr/dentiste/marseille/stephanie-hassoun" target="_blank" style="color:#0596DE;font-weight:600;text-decoration:none;">Réserver sur Doctolib →</a></p></div></div>
+      <div class="contact-item"><div class="contact-icon" style="background:#00B5C8">&#x1F4C5;</div><div><h4>Rendez-vous en ligne</h4><p><a href="https://www.doctolib.fr/dentiste/marseille/stephanie-hassoun" target="_blank" style="color:#00B5C8;font-weight:600;">Réserver sur Doctolib</a></p></div></div>
+      <div class="contact-item"><div class="contact-icon">📧</div><div><h4>Email</h4><p><a href="mailto:stephaniehassoun@hotmail.fr" style="color:#fff;text-decoration:none;">stephaniehassoun@hotmail.fr</a></p></div></div>
+      <div class="contact-item"><div class="contact-icon">&#x1F916;</div><div><h4>Assistante IA 24h/24</h4><p>Cliquez en bas a droite pour toute question !</p></div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div><h4>Dr. Stéphanie Hassoun</h4><p>Chirurgien-dentiste à Marseille 13004. Implants, couronnes, blanchiment, détartrage et soins pédiatriques.</p></div>
+  <div><h4>Nos expertises</h4><a href="#services">Implantologie</a><a href="#services">Couronne dentaire</a><a href="#services">Blanchiment</a><a href="#services">Dentisterie pédiatrique</a><a href="#services">Parodontie</a></div>
+  <div><h4>Contact</h4><p>192A Avenue des Chartreux</p><p>13004 Marseille</p><a href="tel:0491455679">04 91 45 56 79</a><a href="mailto:stephaniehassoun@hotmail.fr">stephaniehassoun@hotmail.fr</a><p>Lun-Ven : 9h-13h / 14h-19h</p></div>
+</footer>
+<div class="footer-bottom">
+  <p>© 2026 Dr. Stéphanie Hassoun - Chirurgien-Dentiste Marseille</p>
+  <p>Site réalise par Liam Web Dev</p>
+</div>
+
+<div id="chatbot-widget">
+  <div id="chat-window">
+    <div class="chat-header">
+      <div class="chat-av">&#x1F9B7;</div>
+      <div class="chat-info"><h4>Assistante IA - Dr. Hassoun</h4><p>Disponible 24h/24 - 7j/7</p></div>
+      <button class="chat-close" onclick="toggleChat()">X</button>
+    </div>
+    <div id="chat-msgs"></div>
+    <div class="chat-suggs">
+      <button class="csugg" onclick="cSugg(this)">Prendre RDV</button>
+      <button class="csugg" onclick="cSugg(this)">Horaires</button>
+      <button class="csugg" onclick="cSugg(this)">Implants</button>
+      <button class="csugg" onclick="cSugg(this)">Urgence</button>
+      <button class="csugg" onclick="cSugg(this)">Tarifs</button>
+    </div>
+    <div class="chat-input-row">
+      <input id="chat-input" type="text" placeholder="Votre question..."/>
+      <button id="chat-send" onclick="chatSend()">&#x27A4;</button>
+    </div>
+  </div>
+  <button id="chat-toggle" onclick="toggleChat()">&#x1F9B7;<div class="notif-dot"></div></button>
+</div>
+
+<script>
+let chatOpen=false,chatStarted=false,chatLoading=false,chatHistory=[];
+const SYSTEM="Tu es l'assistante virtuelle IA du cabinet dentaire du Dr. Stéphanie Hassoun à Marseille. Adresse : 192A Avenue des Chartreux, 13004 Marseille. Tel : 04 91 45 56 79. Horaires : Lun-Ven 9h-13h et 14h-19h. Fermé sam et dim. Services : implants, couronnes, blanchiment, détartrage, pédiatrie, parodontie, prothèses sur implants, soins dentaires. Pour prendre RDV : https://www.doctolib.fr/dentiste/marseille/stephanie-hassoun ou appeler le 04 91 45 56 79. Email : stephaniehassoun@hotmail.fr. Reponds en francais, de facon courte et professionnelle. Ne donne pas de diagnostic. En cas urgence vitale recommande le 15.";
+function toggleChat(){chatOpen=!chatOpen;document.getElementById("chat-window").classList.toggle("open",chatOpen);document.querySelector(".notif-dot").style.display="none";if(chatOpen&&!chatStarted){chatStarted=true;setTimeout(()=>addCMsg("Bonjour ! Je suis l'assistante virtuelle du Dr. Hassoun. Disponible 24h/24 pour répondre a vos questions. Comment puis-je vous aider ?","bot"),300);}}
+function addCMsg(text,sender){const msgs=document.getElementById("chat-msgs");const wrap=document.createElement("div");wrap.className="cmsg "+sender;const av=document.createElement("div");av.className="cmsg-av";av.textContent=sender==="bot"?"&#x1F9B7;":"&#x1F464;";const bub=document.createElement("div");bub.className="cbubble";bub.textContent=text;wrap.appendChild(av);wrap.appendChild(bub);msgs.appendChild(wrap);msgs.scrollTop=msgs.scrollHeight;}
+function showCTyping(){const msgs=document.getElementById("chat-msgs");const wrap=document.createElement("div");wrap.className="cmsg bot";wrap.id="ctyping";const av=document.createElement("div");av.className="cmsg-av";av.textContent="&#x1F9B7;";const bub=document.createElement("div");bub.className="cbubble";bub.innerHTML='<div class="td"></div><div class="td"></div><div class="td"></div>';wrap.appendChild(av);wrap.appendChild(bub);msgs.appendChild(wrap);msgs.scrollTop=msgs.scrollHeight;}
+function removeCTyping(){const t=document.getElementById("ctyping");if(t)t.remove();}
+async function chatSend(){if(chatLoading)return;const input=document.getElementById("chat-input");const text=input.value.trim();if(!text)return;input.value="";chatLoading=true;document.getElementById("chat-send").disabled=true;addCMsg(text,"user");chatHistory.push({role:"user",content:text});showCTyping();try{const res=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:1000,system:SYSTEM,messages:chatHistory})});const data=await res.json();const reply=data.content[0].text;chatHistory.push({role:"assistant",content:reply});removeCTyping();addCMsg(reply,"bot");}catch(e){removeCTyping();addCMsg("Désolée, une erreur s'est produite. Appelez-nous au 04 91 45 56 79.","bot");}chatLoading=false;document.getElementById("chat-send").disabled=false;}
+function cSugg(btn){document.getElementById("chat-input").value=btn.textContent;chatSend();}
+document.getElementById("chat-input").addEventListener("keydown",e=>{if(e.key==="Enter")chatSend();});
+</script>
+</body>
+</html>
