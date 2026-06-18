@@ -29,7 +29,7 @@ export default function DoctorProfile() {
             Chirurgien-Dentiste
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-10 text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-10 text-left">
             {specialties.map((spec) => (
               <div key={spec} className="flex items-center gap-2 text-sm text-foreground">
                 <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" />

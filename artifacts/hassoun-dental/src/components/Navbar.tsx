@@ -51,8 +51,8 @@ export default function Navbar() {
             </svg>
           </div>
           <div className="flex flex-col">
-            <span className="font-serif font-bold text-xl leading-none text-foreground">Dr. Stéphanie Hassoun</span>
-            <span className="text-xs text-muted-foreground uppercase tracking-widest">Chirurgien-Dentiste</span>
+            <span className="font-serif font-bold text-base sm:text-xl leading-none text-foreground">Dr. Stéphanie Hassoun</span>
+            <span className="text-xs text-muted-foreground uppercase tracking-widest hidden sm:block">Chirurgien-Dentiste</span>
           </div>
         </Link>
 

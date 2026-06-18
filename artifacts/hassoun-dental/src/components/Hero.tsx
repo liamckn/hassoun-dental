@@ -78,7 +78,7 @@ export default function Hero() {
             alt="Cabinet Dentaire Dr. Hassoun"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/30" />
+          <div className="absolute inset-0 bg-white/85 sm:bg-gradient-to-r sm:from-white/95 sm:via-white/80 sm:to-white/30" />
         </div>
 
         <div className="container mx-auto px-4 md:px-6 relative z-10">
@@ -95,7 +95,7 @@ export default function Hero() {
                 </span>
                 Nouveaux patients acceptés
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-4">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-4">
                 Dr. Stéphanie Hassoun<br />
                 <span className="text-primary italic">Chirurgien-Dentiste</span>
               </h1>
@@ -137,28 +137,28 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="grid grid-cols-3 gap-6 pt-8 border-t border-border/60"
+              className="grid grid-cols-3 gap-3 pt-8 border-t border-border/60"
             >
               <div className="flex flex-col gap-1">
-                <div className="flex items-center gap-2 text-foreground font-semibold text-xl">
-                  <Clock className="h-5 w-5 text-primary" />
+                <div className="flex items-center gap-1.5 text-foreground font-semibold text-base sm:text-xl">
+                  <Clock className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
                   20+ ans
                 </div>
-                <span className="text-sm text-muted-foreground">d'expérience</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">d'expérience</span>
               </div>
               <div className="flex flex-col gap-1">
-                <div className="flex items-center gap-2 text-foreground font-semibold text-xl">
-                  <Award className="h-5 w-5 text-primary" />
+                <div className="flex items-center gap-1.5 text-foreground font-semibold text-base sm:text-xl">
+                  <Award className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
                   6
                 </div>
-                <span className="text-sm text-muted-foreground">spécialités</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">spécialités</span>
               </div>
               <div className="flex flex-col gap-1">
-                <div className="flex items-center gap-2 text-foreground font-semibold text-xl">
-                  <Star className="h-5 w-5 text-primary fill-primary" />
-                  4,4 étoiles
+                <div className="flex items-center gap-1.5 text-foreground font-semibold text-base sm:text-xl">
+                  <Star className="h-4 w-4 sm:h-5 sm:w-5 text-primary fill-primary flex-shrink-0" />
+                  <span className="whitespace-nowrap">4,4 <span className="hidden sm:inline">étoiles</span></span>
                 </div>
-                <span className="text-sm text-muted-foreground">avis patients</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">avis patients</span>
               </div>
             </motion.div>
           </div>

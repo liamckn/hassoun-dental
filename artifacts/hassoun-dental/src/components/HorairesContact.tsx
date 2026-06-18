@@ -53,11 +53,11 @@ export default function HorairesContact() {
               {schedule.map((item) => (
                 <div
                   key={item.day}
-                  className="flex justify-between items-center py-3 border-b border-white/10"
+                  className="flex justify-between items-center gap-3 py-3 border-b border-white/10"
                   data-testid={`schedule-row-${item.day.toLowerCase()}`}
                 >
-                  <span className="text-white/70 text-sm font-medium">{item.day}</span>
-                  <span className={`text-sm font-semibold ${item.open ? "text-white" : "text-white/30"}`}>
+                  <span className="text-white/70 text-sm font-medium flex-shrink-0">{item.day}</span>
+                  <span className={`text-xs sm:text-sm font-semibold text-right ${item.open ? "text-white" : "text-white/30"}`}>
                     {item.hours}
                   </span>
                 </div>
