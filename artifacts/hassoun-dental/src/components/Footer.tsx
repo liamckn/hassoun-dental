@@ -91,9 +91,14 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4">
             <MentionsLegales />
-            <p className="text-xs text-white/30">
+            <a
+              href="https://digiryze.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-white/30 hover:text-white/60 transition-colors"
+            >
               Site réalisé par Liam Web Dev
-            </p>
+            </a>
           </div>
         </div>
       </div>
