@@ -8,6 +8,7 @@ import ParodontitePage from "@/pages/ParodontitePage";
 import UrgencePage from "@/pages/UrgencePage";
 import DentisteEnfantPage from "@/pages/DentisteEnfantPage";
 import GencivesPage from "@/pages/GencivesPage";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -16,6 +17,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Router>
+          <ScrollToTop />
           <Switch>
             <Route path="/" component={HomePage} />
             <Route path="/implant-dentaire-marseille" component={ImplantPage} />
