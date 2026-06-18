@@ -30,13 +30,13 @@ export default function LandingLayout({
 
         {/* Hero plein fond avec teinte chaude */}
         {heroImage && (
-          <div className="relative w-full h-72 md:h-[520px] overflow-hidden flex items-center">
+          <div className="relative w-full min-h-48 md:h-[520px] overflow-hidden flex items-center py-10 md:py-0">
             <img
               src={heroImage}
               alt=""
               className="absolute inset-0 w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/30" />
+            <div className="absolute inset-0 bg-white/88 sm:bg-gradient-to-r sm:from-white/95 sm:via-white/80 sm:to-white/30" />
             {/* Texte à gauche comme la page d'accueil */}
             {(heroCategory || heroTitle || heroSubtitle) && (
               <motion.div
@@ -51,12 +51,12 @@ export default function LandingLayout({
                   </p>
                 )}
                 {heroTitle && (
-                  <h1 className="text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight mb-4">
+                  <h1 className="text-2xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight mb-4">
                     {heroTitle}
                   </h1>
                 )}
                 {heroSubtitle && (
-                  <p className="text-lg text-muted-foreground leading-relaxed">
+                  <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                     {heroSubtitle}
                   </p>
                 )}
