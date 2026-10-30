@@ -8,6 +8,7 @@ import ParodontitePage from "@/pages/ParodontitePage";
 import UrgencePage from "@/pages/UrgencePage";
 import DentisteEnfantPage from "@/pages/DentisteEnfantPage";
 import GencivesPage from "@/pages/GencivesPage";
+import NotFound from "@/pages/not-found";
 import ScrollToTop from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ function App() {
             <Route path="/urgence-dentaire-marseille" component={UrgencePage} />
             <Route path="/dentiste-enfant-marseille" component={DentisteEnfantPage} />
             <Route path="/gencives-qui-saignent-marseille" component={GencivesPage} />
+            <Route component={NotFound} />
           </Switch>
         </Router>
         <Toaster />
