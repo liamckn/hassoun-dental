@@ -12,7 +12,7 @@ const faqs = [
 export default function UrgencePage() {
   useSeo({
     title: "Urgence dentaire Marseille | Dr Stéphanie Hassoun",
-    description: "Rage de dent, dent cassée, abcès ou douleur dentaire. Cabinet dentaire à Marseille 13004 — Dr Stéphanie Hassoun.",
+    description: "Rage de dent, dent cassée, abcès ou douleur dentaire : cabinet dentaire à Marseille 13004, Dr Stéphanie Hassoun. Appelez le 04 91 49 56 79.",
   });
 
   return (

@@ -51,7 +51,7 @@ export default function LandingLayout({
           <div className="relative w-full min-h-48 md:h-[520px] overflow-hidden flex items-center py-10 md:py-0">
             <img
               src={heroImage}
-              alt=""
+              alt={heroTitle ?? "Cabinet dentaire Dr Stéphanie Hassoun, Marseille 13004"}
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-white/88 sm:bg-gradient-to-r sm:from-white/95 sm:via-white/80 sm:to-white/30" />

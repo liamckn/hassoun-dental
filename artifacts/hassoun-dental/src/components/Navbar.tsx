@@ -82,8 +82,8 @@ export default function Navbar() {
                 <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`} />
               </button>
 
-              {dropdownOpen && (
-                <div className="absolute top-full left-0 mt-1 w-60 bg-white rounded-xl shadow-xl border border-border py-2 z-50">
+              {(
+                <div className={`${dropdownOpen ? "block" : "hidden"} absolute top-full left-0 mt-1 w-60 bg-white rounded-xl shadow-xl border border-border py-2 z-50`}>
                   {specialites.map((s) => (
                     <Link
                       key={s.href}
@@ -136,8 +136,8 @@ export default function Navbar() {
                 Nos spécialités
                 <ChevronDown className={`h-4 w-4 transition-transform ${mobileSpecOpen ? "rotate-180" : ""}`} />
               </button>
-              {mobileSpecOpen && (
-                <ul className="mt-2 pl-4 flex flex-col gap-2">
+              {(
+                <ul className={`${mobileSpecOpen ? "flex" : "hidden"} mt-2 pl-4 flex-col gap-2`}>
                   {specialites.map((s) => (
                     <li key={s.href}>
                       <Link href={s.href} className="block text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileMenuOpen(false)}>

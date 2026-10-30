@@ -1,13 +1,14 @@
+import { Link } from "wouter";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import MentionsLegales from "@/components/MentionsLegales";
 
 const services = [
-  "Implantologie",
-  "Couronne dentaire",
-  "Blanchiment des dents",
-  "Dentisterie pédiatrique",
-  "Parodontie",
-  "Prothèse sur implant",
+  { name: "Implant dentaire", href: "/implant-dentaire-marseille" },
+  { name: "Parodontite et déchaussement", href: "/parodontite-marseille" },
+  { name: "Gencives qui saignent", href: "/gencives-qui-saignent-marseille" },
+  { name: "Dentiste pour enfant", href: "/dentiste-enfant-marseille" },
+  { name: "Urgence dentaire", href: "/urgence-dentaire-marseille" },
+  { name: "Tous nos soins", href: "/#services" },
 ];
 
 export default function Footer() {
@@ -39,13 +40,13 @@ export default function Footer() {
             <h4 className="font-serif text-lg font-semibold text-white mb-5">Nos expertises</h4>
             <ul className="space-y-2">
               {services.map((s) => (
-                <li key={s}>
-                  <a
-                    href="#services"
+                <li key={s.name}>
+                  <Link
+                    href={s.href}
                     className="text-sm text-white/60 hover:text-primary transition-colors"
                   >
-                    {s}
-                  </a>
+                    {s.name}
+                  </Link>
                 </li>
               ))}
             </ul>

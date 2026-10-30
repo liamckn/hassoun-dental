@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import { Link } from "wouter";
 
-const services = [
+const services: { photo: string; name: string; desc: string; href?: string }[] = [
   {
     photo: "/service-soins.jpeg",
     name: "Soins dentaires complets",
@@ -11,6 +12,7 @@ const services = [
   {
     photo: "/service-implant.jpeg",
     name: "Implantologie",
+    href: "/implant-dentaire-marseille",
     desc: "Remplacement de dents manquantes par des implants en titane à l'aspect naturel. Solution définitive, confortable et esthétique pour retrouver un sourire complet.",
   },
   {
@@ -26,11 +28,13 @@ const services = [
   {
     photo: "/service-pediatrique.jpeg",
     name: "Dentisterie pédiatrique",
+    href: "/dentiste-enfant-marseille",
     desc: "Soins doux et préventifs pour les enfants dès l'âge de 3 ans. Un environnement bienveillant pour que votre enfant garde une bonne relation avec le dentiste.",
   },
   {
     photo: "/service-parodontie.jpeg",
     name: "Parodontie",
+    href: "/parodontite-marseille",
     desc: "Diagnostic et traitement des maladies des gencives (gingivite, parodontite). Préserve le tissu osseux et prévient la perte dentaire sur le long terme.",
   },
 ];
@@ -79,13 +83,40 @@ export default function Services() {
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
               </div>
               <div className="p-5">
-                <h3 className="font-serif text-lg font-semibold text-foreground mb-2">{service.name}</h3>
+                <h3 className="font-serif text-lg font-semibold text-foreground mb-2">
+                  {service.href ? (
+                    <Link href={service.href} className="hover:text-primary transition-colors">{service.name}</Link>
+                  ) : (
+                    service.name
+                  )}
+                </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{service.desc}</p>
               </div>
               <div className="mx-5 mb-4 h-[2px] bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
             </motion.div>
           ))}
         </div>
+
+        <nav aria-label="Nos spécialités" className="mt-12 text-center">
+          <p className="text-sm font-medium text-primary uppercase tracking-widest mb-5">En savoir plus sur nos spécialités</p>
+          <div className="flex flex-wrap gap-3 justify-center">
+            {[
+              { href: "/implant-dentaire-marseille", label: "Implant dentaire à Marseille" },
+              { href: "/parodontite-marseille", label: "Parodontite et déchaussement" },
+              { href: "/gencives-qui-saignent-marseille", label: "Gencives qui saignent" },
+              { href: "/dentiste-enfant-marseille", label: "Dentiste pour enfant" },
+              { href: "/urgence-dentaire-marseille", label: "Urgence dentaire" },
+            ].map((p) => (
+              <Link
+                key={p.href}
+                href={p.href}
+                className="inline-flex items-center px-4 py-2 rounded-full border border-primary/20 text-sm font-medium text-primary hover:bg-primary hover:text-white transition-colors"
+              >
+                {p.label}
+              </Link>
+            ))}
+          </div>
+        </nav>
       </div>
     </section>
   );

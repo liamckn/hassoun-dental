@@ -11,8 +11,8 @@ import { useSeo } from "@/hooks/useSeo";
 
 export default function HomePage() {
   useSeo({
-    title: "Dentiste Marseille 13004 | Dr Stéphanie Hassoun | Implantologie, Gencives et Soins des Enfants",
-    description: "Dentiste à Marseille 13004 (Chartreux). Implantologie, traitement des gencives, soins des enfants, urgences dentaires et suivi complet de votre santé bucco-dentaire.",
+    title: "Dentiste Marseille 13004 | Dr Stéphanie Hassoun | Implants",
+    description: "Dentiste à Marseille 13004 (Chartreux) : implants, gencives, soins des enfants et urgences dentaires. Dr Stéphanie Hassoun, RDV au 04 91 49 56 79.",
   });
 
   return (
