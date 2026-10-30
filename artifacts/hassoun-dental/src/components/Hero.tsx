@@ -156,7 +156,7 @@ export default function Hero() {
               <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-1.5 text-foreground font-semibold text-base sm:text-xl">
                   <Star className="h-4 w-4 sm:h-5 sm:w-5 text-primary fill-primary flex-shrink-0" />
-                  <span className="whitespace-nowrap">4,4 <span className="hidden sm:inline">étoiles</span></span>
+                  <span className="whitespace-nowrap">4,5 <span className="hidden sm:inline">étoiles</span></span>
                 </div>
                 <span className="text-xs sm:text-sm text-muted-foreground">avis patients</span>
               </div>

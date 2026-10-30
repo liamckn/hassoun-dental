@@ -74,7 +74,7 @@ export default function Testimonials() {
                 <Star key={i} className="h-5 w-5 fill-amber-400 text-amber-400" />
               ))}
             </div>
-            <span className="font-semibold text-foreground">4,4 / 5</span>
+            <span className="font-semibold text-foreground">4,5 / 5</span>
             <span className="text-sm">· Basé sur les avis Google</span>
           </div>
         </motion.div>

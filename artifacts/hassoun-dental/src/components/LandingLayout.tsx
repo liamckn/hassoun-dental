@@ -102,7 +102,7 @@ export default function LandingLayout({
                 ))}
               </div>
               <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">4,4 / 5</span> · Avis Google vérifiés
+                <span className="font-semibold text-foreground">4,5 / 5</span> · Avis Google vérifiés
               </p>
             </motion.div>
 

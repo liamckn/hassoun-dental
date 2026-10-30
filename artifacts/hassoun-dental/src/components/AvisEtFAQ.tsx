@@ -108,7 +108,7 @@ export default function AvisEtFAQ() {
                 <Star key={i} className="h-4 w-4 fill-amber-400 text-amber-400" />
               ))}
             </div>
-            <span className="font-semibold text-foreground text-sm">4,4 / 5</span>
+            <span className="font-semibold text-foreground text-sm">4,5 / 5</span>
             <span className="text-sm">· Avis Google</span>
           </div>
         </motion.div>
